@@ -1,0 +1,112 @@
+body {
+  padding: 0;
+}
+.dot {
+  height: 6vh;
+  width: 6vh;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: .25vh;
+  border-style: solid;
+  border-width: .75vh;
+  border-color: black;
+}
+.identifier {
+  position: relative;
+  top: -2vh;
+}
+.colorSelector span {
+  border-style: solid;
+  border-width: .25vh;
+  border-color: #bbb;
+}
+.colorSelector {
+  position: fixed;
+  right: 0;
+  top: 0px;
+  width: 16vh;
+  height: 99vh;
+  border-style: solid;
+  border-size: .5vh;
+}
+.dotYellow {
+  margin-top: .5vh;
+  position: relative;
+  margin-left: 2vh;
+  height: 12vh;
+  width: 12vh;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 2;
+}
+.dotOrange {
+  position: relative;
+  margin-left: 2vh;
+  height: 12vh;
+  width: 12vh;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 2;
+}
+.dotRed {
+  position: relative;
+  margin-left: 2vh;
+  height: 12vh;
+  width: 12vh;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 2;
+}
+.dotPurple {
+  position: relative;
+  margin-left: 2vh;
+  height: 12vh;
+  width: 12vh;
+  background-color: purple;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 2;
+}
+.dotBlue {
+  position: relative;
+  margin-left: 2vh;
+  height: 12vh;
+  width: 12vh;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 2;
+}
+.dotGreen {
+  position: relative;
+  margin-left: 2vh;
+  height: 12vh;
+  width: 12vh;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 2;
+}
+.mainDiv {
+  margin-top: 10px;
+}
+.instructions {
+  width: 50vw;
+}
+button {
+  position: relative;
+  color: white;
+  text-indent: -1vh;
+  font-size: 2.5vh;
+  margin-left: 2vh;
+  background-color: black;
+  border-radius: 50%;
+  width: 12vh;
+  height: 12vh;
+  font-family: sans-serif;
+  display: inline-block;
+}
