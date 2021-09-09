@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mastermind</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class = "mainDiv">
+    <div class = "section">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="identifier"></span>
+    </div>
+    <div class = "section">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="identifier"></span>
+    </div>
+    <div class = "section">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="identifier"></span>
+    </div>
+    <div class = "section">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="identifier"></span>
+    </div>
+    <div class = "section">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="identifier"></span>
+    </div>
+    <div class = "section">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="identifier"></span>
+    </div>
+    <div class = "section">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="identifier"></span>
+    </div>
+    <div class = "section">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="identifier"></span>
+    </div>
+    <div class = "section">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="identifier"></span>
+    </div>
+    <div class = "section">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="identifier"></span>
+    </div>
+    </div>
+    <div class = "colorSelector">
+      <span class="dotYellow" onclick = "activeColor(1)"></span>
+      <span class="dotGreen" onclick = "activeColor(2)"></span>
+      <span class="dotRed" onclick = "activeColor(3)"></span>
+      <span class="dotOrange" onclick = "activeColor(4)"></span>
+      <span class="dotBlue" onclick = "activeColor(5)"></span>
+      <span class="dotPurple" onclick = "activeColor(6)"></span>
+      <button onclick = "onWin()">Restart?</button>
+    </div>
+    <p id = "guessCount">0 guesses have been made so far.</p>
+    <script src="script.js"></script>
+    <p class = "instructions">Instructions: Press on the colors on the right to enter your guess on the left. Press enter to submit your guess, and if you wish to rewrite your guess, then continue to click colors. A result of "1 right spot, 2 wrong spot" means that 1 color was in the correct spot and 2 colors were correct, but placed in the wrong position.</p>
+  </body>
+</html>
